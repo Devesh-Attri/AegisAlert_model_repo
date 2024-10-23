@@ -29,7 +29,7 @@ This AI-powered Women's Safety Alert System continuously monitors real-time voic
 
 - Clone the repository:
 ```
-git clone https://github.com/your-repo/womens-safety-alert-system.git
+git clone https://github.com/Devesh-Attri/AegisAlert_model_repo.git
 ```
 - Install dependencies:
 ```
