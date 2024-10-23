@@ -2,7 +2,7 @@ import requests
 import json
 
 AUDIO_FILE = "temp_audio.wav"
-DEEPGRAM_API_KEY = "ff2cdb5878677800ae178708dc0fe07b4edafc1f"
+DEEPGRAM_API_KEY = ""
 
 def transcribe_audio_deepgram(audio_file):
     try:

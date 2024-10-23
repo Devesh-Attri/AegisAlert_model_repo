@@ -9,7 +9,7 @@ import soundfile as sf
 # Initialize the pyannote speaker diarization pipeline
 pipeline = Pipeline.from_pretrained(
     "pyannote/speaker-diarization-3.1",
-    use_auth_token="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"
+    use_auth_token=""
 )
 pipeline.to(torch.device("mps"))  # Use MPS for macOS (Apple Silicon)
 
