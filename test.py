@@ -150,7 +150,7 @@ def analyze_audio(audio_data, sample_rate, pipeline, overlap_detector, gender_mo
 if __name__ == "__main__":
     duration = 10  # Duration in seconds for recording
     sample_rate = 16000  # Sample rate for recording
-    auth_token = "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"  # Replace with your Hugging Face token
+    auth_token = ""  # Replace with your Hugging Face token
 
     pipeline, overlap_detector = test_authentication(auth_token)
     emotion_model = load_model('models/ser_model.h5')
